@@ -9,11 +9,13 @@ namespace OperatorExercise
         {
             double operations = Add(1,2);
             
+            ThoughtQuestion();
       
             
             Operators();
 
             double area = AreaOfCircle();
+
             
             
            
@@ -53,6 +55,16 @@ namespace OperatorExercise
             return area;
 
 
+        }
+        public static void ThoughtQuestion()
+        {
+            // var is implicit type inferrence (more on this later)
+            var i = 3;
+            var j = 4;
+            var k = ++i * j++;
+
+            Console.WriteLine(k); // ouputs ?
+            
         }
 
             
