@@ -39,10 +39,10 @@ namespace OperatorExercise
             Console.WriteLine(a - b);
             Console.WriteLine(a * b);
             Console.WriteLine(a / b);
-            Console.WriteLine(++a + b);
+            
             Console.WriteLine(quotient);
             Console.WriteLine(remainder);
-            Console.WriteLine($"17/4 = {quotient} with a remainder of {remainder}.");
+            Console.WriteLine($"{a}/{b} = {quotient} with a remainder of {remainder}.");
 
           }
 
