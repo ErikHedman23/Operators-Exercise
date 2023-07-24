@@ -8,8 +8,8 @@ namespace OperatorExercise
         static void Main(string[] args)
         {
             double operations = Add(1,2);
-            Console.WriteLine(operations);
             
+      
             
             Operators();
 
@@ -22,8 +22,9 @@ namespace OperatorExercise
 
         public static double Add(double a, double b)
         {
-
-            return a + b;
+            double operations = a + b;
+            Console.WriteLine(operations);
+            return operations;
            
         }
         public static void Operators()
