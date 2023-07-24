@@ -50,7 +50,7 @@ namespace OperatorExercise
         {
             Console.WriteLine("What is the radius of your circle?");
             var radius = double.Parse(Console.ReadLine());
-            double area = Math.PI* Math.Pow(radius, 2);
+            double area = Math.PI* Math.Pow(radius, 2); //can also be written as Math.PI* radius * radius;
             Console.WriteLine($"The area of your circle is {area}");
             return area;
 
